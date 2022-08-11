@@ -10,3 +10,6 @@ ano_nascimento = int(input("Digite o ano de nascimento: "))
 ano_atual = 2022
 
 calcular_idade(ano_nascimento, ano_atual)
+
+calculo = 20 / 10
+print(calculo)
