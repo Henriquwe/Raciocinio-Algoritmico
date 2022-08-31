@@ -9,12 +9,6 @@
 TDE1/ex3.py,9\f\9f40c7f2bb2ef74270e805ede48685200e94fdf4
 ;
 TDE1/ex4.py,d\f\df02bba057f755a9f230bfe2f2dc727d5db074ec
-B
-Exercícios/ex1.py,9\7\979fc227ca2140d3761031603313a0bc1cc92d24
-B
-Exercícios/ex2.py,d\d\ddc1424d144cdd560b088e1503b56526be99cb81
-B
-Exercícios/ex3.py,6\c\6ce08d2cc98166bc63f37575a2c0289ed283f3d3
 ;
 TDE1/ex5.py,a\1\a11e54480e1c073ef01a0e4784d2cc7e9445bb9d
 ;

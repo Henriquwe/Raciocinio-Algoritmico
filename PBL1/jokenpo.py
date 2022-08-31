@@ -27,7 +27,7 @@ while on:
               "[3] - Tesoura \n")
 
         opcaoJogador1 = int(input(f"Opção do 1° jogador {nomeJogador}: "))
-        while opcaoJogador1 < 1 or opcaoJogador1 > 3:
+        while opcaoJogador1 < 1 or opcaoJogador1 > 4:
             opcaoJogador1 = int(input("Essa opção não é válida, tente novamente! \n"
                                       ": "))
 
