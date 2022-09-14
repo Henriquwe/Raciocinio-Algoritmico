@@ -167,12 +167,12 @@ while on:
                 empates += 1
 
     else:
-        print("======== SUMÁRIO ========")
-        print(f"O número de vitórias do Jogador 1 foi de: {winsJogador1}!")
-        print(f"O número de vitórias do Jogador 2 foi de: {winsJogador2}!")
-        print(f"O número de empates totais foi de: {empates}!")
-        print(f"A máquina randômica ganhou do Jogador um total de: {winsMaquinaRandom} vezes!")
-        print(f"O número de vitórias da Máquina 1 foi de: {winsMaquina1}!")
-        print(f"O número de vitórias da Máquina 2 foi de: {winsMaquina2}!")
-        print("Encerrando o programa, até a próxima =)")
+        print(f"======== SUMÁRIO ======== \n"
+              f"O número de vitórias do Jogador 1 foi de: {winsJogador1}! \n"
+              f"O número de vitórias do Jogador 2 foi de: {winsJogador2}! \n"
+              f"O número de empates totais foi de: {empates}! \n"
+              f"A máquina randômica ganhou do Jogador um total de: {winsMaquinaRandom} vezes! \n"
+              f"O número de vitórias da Máquina 1 foi de: {winsMaquina1}! \n"
+              f"O número de vitórias da Máquina 2 foi de: {winsMaquina2}! \n"
+              "Encerrando o programa, até a próxima =)")
         on = False
