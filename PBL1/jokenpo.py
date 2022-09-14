@@ -18,7 +18,7 @@ while on:
     # Tratamento de opção, somente aqui foi utilizado if com continue, pois,
     # ele irá ignorar o restante do código e reiniciar o 'loop' logo acima
     if opcao < 0 or opcao > 3:
-        print("Opção inválida, tente novamente!")
+        print("Opção inválida, tente novamente!\n")
         continue
 
     # Opção 0 o programa se encerra
@@ -47,7 +47,8 @@ while on:
                 opcao_jogador_1 = int(input("\nOpções:\n"
                                             "[1] - Pedra 🗿\n"
                                             "[2] - Papel 📜\n"
-                                            "[3] - Tesoura ✂️\n"))
+                                            "[3] - Tesoura ✂️\n"
+                                            "Opção: "))
 
             opcao_jogador_2 = int(input(f"Opção do jogador {nome_jogador_2}: "))
             while opcao_jogador_2 < 0 or opcao_jogador_2 > 3:
@@ -55,7 +56,8 @@ while on:
                 opcao_jogador_2 = int(input("\nOpções:\n"
                                             "[1] - Pedra\n"
                                             "[2] - Papel 📜\n"
-                                            "[3] - Tesoura ✂️\n"))
+                                            "[3] - Tesoura ✂️\n"
+                                            "Opção: "))
 
             # Lógica do pedra, papel e tesoura, formatada para ficar mais bonitinha
             # 1 empata com 1, perde de 2 e ganha de 3
@@ -99,7 +101,7 @@ while on:
                               "[2] - Encerrar programa e mostrar dados finais\n"
                               "Opção: "))
             while opcao < 1 or opcao > 2:
-                opcao = int(input("Opção inválida, tente novamente!"
+                opcao = int(input("Opção inválida, tente novamente!\n"
                                   "[1] - Jogar novamente\n"
                                   "[2] - Encerrar programa e mostrar dados finais\n"
                                   "Opção: "))
@@ -109,9 +111,9 @@ while on:
                 print(f"\nObrigado aos Jogadores:\n"
                       f"{nome_jogador_1} e {nome_jogador_2} por jogar! ❤️\n"
                       f"Estatísticas:\n"
-                      f"Vitórias do jogador {nome_jogador_1}:{vitorias_jogador_1}\n"
-                      f"Vitórias do jogador {nome_jogador_2}:{vitorias_jogador_2}\n"
-                      f"Empates:{num_de_empates}\n"
+                      f"Vitórias do jogador {nome_jogador_1}: {vitorias_jogador_1}\n"
+                      f"Vitórias do jogador {nome_jogador_2}: {vitorias_jogador_2}\n"
+                      f"Empates: {num_de_empates}\n"
                       f"Encerrando programa =).")
                 on = False
                 break
@@ -132,7 +134,8 @@ while on:
                 opcao_jogador_1 = int(input("\nOpções:\n"
                                             "[1] - Pedra 🗿\n"
                                             "[2] - Papel 📜\n"
-                                            "[3] - Tesoura ✂️\n"))
+                                            "[3] - Tesoura ✂️\n"
+                                            "Opção: "))
 
             # Opção randômica de 1 a 3 para o computador, outros usos no código são idênticos a esse
             opcao_computador = random.randint(1, 3)
@@ -172,7 +175,7 @@ while on:
                               "[2] - Encerrar programa e mostrar dados finais\n"
                               "Opção: "))
             while opcao < 1 or opcao > 2:
-                opcao = int(input("Opção inválida, tente novamente!"
+                opcao = int(input("Opção inválida, tente novamente!\n"
                                   "[1] - Jogar novamente\n"
                                   "[2] - Encerrar programa e mostrar dados finais\n"
                                   "Opção: "))
@@ -180,9 +183,9 @@ while on:
                 print(f"\nObrigado ao Jogador:\n"
                       f"{nome_jogador_1} por jogar! ❤️\n"
                       f"Estatísticas:\n"
-                      f"Vitórias do jogador {nome_jogador_1}:{vitorias_jogador_1}\n"
-                      f"Vitórias do computador:{vitorias_computador}\n"
-                      f"Empates:{num_de_empates}\n"
+                      f"Vitórias do jogador {nome_jogador_1}: {vitorias_jogador_1}\n"
+                      f"Vitórias do computador: {vitorias_computador}\n"
+                      f"Empates: {num_de_empates}\n"
                       f"Encerrando programa =).")
                 on = False
                 break
@@ -231,16 +234,16 @@ while on:
                               "[2] - Encerrar programa e mostrar dados finais\n"
                               "Opção: "))
             while opcao < 1 or opcao > 2:
-                opcao = int(input("Opção inválida, tente novamente!"
+                opcao = int(input("Opção inválida, tente novamente!\n"
                                   "[1] - Jogar novamente\n"
                                   "[2] - Encerrar programa e mostrar dados finais\n"
                                   "Opção: "))
             if opcao == 2:
                 print(f"\nObrigado por utilizar o programa! ❤️\n"
                       f"Estatísticas:\n"
-                      f"Vitórias do {nome_computador_1}:{vitorias_computador_1}\n"
-                      f"Vitórias do {nome_computador_2}:{vitorias_computador_2}\n"
-                      f"Empates:{num_de_empates}\n"
+                      f"Vitórias do {nome_computador_1}: {vitorias_computador_1}\n"
+                      f"Vitórias do {nome_computador_2}: {vitorias_computador_2}\n"
+                      f"Empates: {num_de_empates}\n"
                       f"Encerrando programa =).")
                 on = False
                 break
