@@ -1,3 +1,4 @@
+# Versão incorreta do trabalho, estava apenas fazendo testes kkkkkk
 # Jogo do pedra-papel-tesoura
 # Realizando imports:
 import random
