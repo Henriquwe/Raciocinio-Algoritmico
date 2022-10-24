@@ -29,7 +29,7 @@ while True:
         print(f"Saque no valor de: {saque}R$ feito com sucesso!")
 
     elif opcao == 3:
-        # Podia fazer direto no saldo mas para mostrar a quantidade eu utilizo mais uma variável
+        # Podia fazer direto no saldo, mas para mostrar a quantidade eu utilizo mais uma variável
         deposito = float(input("Digite a quantidade a ser depositada: "))
         saldo = saldo + deposito
         print(f"Quantidade de {deposito}R$ depositado com sucesso!")
