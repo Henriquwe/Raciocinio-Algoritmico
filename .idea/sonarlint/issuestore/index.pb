@@ -1,31 +1,11 @@
 
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-;
-TDE1/ex2.py,7\2\7266c3c45a0d15b40661e79717a8ab6f6b5ac571
-;
-TDE1/ex1.py,9\9\99297a09d3f764ee882ec0d1273241d45308bf43
-;
-TDE1/ex3.py,9\f\9f40c7f2bb2ef74270e805ede48685200e94fdf4
-;
-TDE1/ex4.py,d\f\df02bba057f755a9f230bfe2f2dc727d5db074ec
-;
-TDE1/ex5.py,a\1\a11e54480e1c073ef01a0e4784d2cc7e9445bb9d
-;
-TDE1/ex6.py,2\e\2e08e9daa8f46c1d095500c7d251889333540318
-;
-TDE1/ex7.py,8\e\8ed2c016909eb292ec65508c6290df3d20e43dce
-;
-TDE1/ex8.py,c\1\c1b47cc9946c8f259e553a884d4f9602c0732efa
-]
--PBL1/outraversaotesteseforcapaz/jokenpo2.0.py,6\9\699463ae436fe2ced9d252484fca4abff1c12be7
 D
 PROVA-PRATICA/ex3.py,b\0\b018e917553d711367fd6c02cce6b387332cddfa
 D
 PROVA-PRATICA/ex1.py,f\b\fbf655418fa569becc95e1d0c35c0151b71aaf43
 D
 PROVA-PRATICA/ex2.py,a\1\a1cddbc7a03094600d5e8e0bafd35bbbd2f11343
-?
-PBL1/jokenpo.py,1\d\1d62c0761d7a5bab4258ef79c2f97fce8a6404da
 D
 PROVA-PRATICA/ex4.py,9\d\9dfa55e550c4a053a068ab56785e7d8335d740fe
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
