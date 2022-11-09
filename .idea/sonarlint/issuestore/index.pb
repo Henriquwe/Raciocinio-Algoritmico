@@ -9,3 +9,5 @@ D
 PROVA-PRATICA/ex4.py,9\d\9dfa55e550c4a053a068ab56785e7d8335d740fe
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+@
+pbl-1/jokenpo.py,5\c\5cdf6a076aac0ef5aa4844269e73888ce95cad38
