@@ -59,7 +59,7 @@ while on:
                                             "[3] - Tesoura ✂️\n"
                                             "Opção: "))
 
-            # Lógica do pedra, papel e tesoura, formatada para ficar mais bonitinha
+            # Lógica do (pedra), papel e tesoura, formatada para ficar mais bonitinha
             # 1 empata com 1, perde de 2 e ganha de 3
             # 2 ganha de 1, empata com 2 e perde de 3
             # 3 perde de 1, ganha de 2 e empata com 3
