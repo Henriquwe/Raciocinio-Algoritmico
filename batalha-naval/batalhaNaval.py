@@ -89,7 +89,9 @@ def posicionar_barco(mat_game, mat_display, qtd_barcos):
         while mat_game[posicao_linha][posicao_coluna] == 1:
             print(vermelho + "\nEssa posição já possuí um barco!\n" + neutro)
             posicao_linha = int(input(f"Em qual linha deseja posicionar o {barco + 1}° barco [x,-]: "))
+            posicao_linha = verificar_posicionamento_linha(posicao_linha, barco)
             posicao_coluna = int(input(f"Em qual coluna deseja posicionar o {barco + 1}° barco [{posicao_linha},x]: "))
+            posicao_coluna = verificar_posicionamento_coluna(posicao_linha, barco, posicao_coluna)
 
         mat_game[posicao_linha][posicao_coluna] = 1
         mat_display[posicao_linha][posicao_coluna] = "@"

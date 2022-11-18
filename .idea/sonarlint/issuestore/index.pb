@@ -11,5 +11,3 @@ D
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 @
 pbl-1/jokenpo.py,5\c\5cdf6a076aac0ef5aa4844269e73888ce95cad38
-R
-"batalha-naval/batalhaNavalTeste.py,6\4\64092b1e7aa2e13ba3a87cc2ae60a3c6e9cf2ea4
